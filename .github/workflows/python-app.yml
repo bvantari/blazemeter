@@ -40,11 +40,11 @@ jobs:
     #    # stop the build if there are Python syntax errors or undefined names
     #    flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
     #    # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-    #    flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    #    flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics  (9477534 - 10845263)
     #- name: Test with pytest
     #  run: |
     #    pytest
     - name: Execute Performance Test
       run: |
-        python blazemeter-test-trigger.py --testid 10845263 --keysecret MzQ2MDk0MTQ2ZWY2OGU1OGZhMzMzYTg0OmU1NzFlMjdjYjUxMTAxYmQzYWM0NzVkMmRkYmVmZmMzOWRkMDQ3MmYxNzNlNWJhMTJhY2JjNzhlNzgxNzA5YjBlMWRiNDI2Yw==
+        python blazemeter-test-trigger.py --testid 9477534 --keysecret ZTQzNWE0NmM3MmRkZGNlNzAwNWViZDgwOjVjNjhkMTI0NjA5Yzk2MGFkODNiNDYxYzcxM2NiN2U0MjE2OTM2MTA1MjdiOGVmN2ExMDhiNmY4MGU2MWUyZDIwZDkyYzk4NQ==
 
