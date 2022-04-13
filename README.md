@@ -10,4 +10,4 @@ Script to be executed as docker compose
 
 jmeter
 gatling
-Github-actions
+Github-actions-1
