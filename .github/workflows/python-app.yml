@@ -46,5 +46,5 @@ jobs:
     #    pytest
     - name: Execute Performance Test
       run: |
-        python blazemeter-test-trigger.py --testid 9477534 --keysecret ZTQzNWE0NmM3MmRkZGNlNzAwNWViZDgwOjVjNjhkMTI0NjA5Yzk2MGFkODNiNDYxYzcxM2NiN2U0MjE2OTM2MTA1MjdiOGVmN2ExMDhiNmY4MGU2MWUyZDIwZDkyYzk4NQ==
+        python blazemeter-test-trigger.py --testid 10907659 --keysecret ZTQzNWE0NmM3MmRkZGNlNzAwNWViZDgwOjVjNjhkMTI0NjA5Yzk2MGFkODNiNDYxYzcxM2NiN2U0MjE2OTM2MTA1MjdiOGVmN2ExMDhiNmY4MGU2MWUyZDIwZDkyYzk4NQ==
 
